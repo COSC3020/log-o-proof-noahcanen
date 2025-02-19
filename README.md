@@ -36,4 +36,8 @@ then \log_{2} \in O(\log_{5}) is true
 
 so $O(\log_{2} n)$ = $O(\log_{5} n)$ is true
 
+For this assignment, I was able to do it entirely on my own with help on the distinct parts of the proof I needed to tackle from the TA.
+
+"I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
+
 
