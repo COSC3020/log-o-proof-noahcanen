@@ -16,4 +16,15 @@ $f(n)\in O(g(n)) \iff \exists c>0, \exists n_0, \forall n\ge n_0: f(n) <= c g(n)
 
 $\log_{5} n = O(\log_{2} n)$
 
+$f(n) = \log_{5} n $
+
+$g(n) = \log_{2} n$
+
+c = 10
+
+n = 100
+
+so \log_{5} 100 <= 10 * \log_{2} 100
+
 $\log_{2} n = O(\log_{5} n)$
+
