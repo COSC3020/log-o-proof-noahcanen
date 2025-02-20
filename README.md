@@ -32,7 +32,7 @@ $f(n) \in \log_{2} n $
 $g(n) \in \log_{5} n$
 
 so $\exists c>0, \exists n_0, \forall n\ge n_0: g(n) <= c f(n)n$ is true
-then \log_{2} \in O(\log_{5}) is true
+then $\log_{2} \in O(\log_{5})$ is true
 
 so $O(\log_{2} n)$ = $O(\log_{5} n)$ is true
 
