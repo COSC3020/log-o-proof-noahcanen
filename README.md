@@ -17,7 +17,7 @@ $T(n) \in O(\log_{2} n)$ then
 
 $\exists c, n_0: T(n) \leq c \cdot \log_{2} n \forall n \geq n_0$
 
-$change-of-base formula for \log_{2} n = \log_{5} n / \log_{5} 2$
+change-of-base formula for $\log_{2} n = \log_{5} n / \log_{5} 2$
 
 $c = \log_{5} 2$
 
@@ -33,7 +33,7 @@ $T(n) \in O(\log_{5} n)$ then
 
 $\exists c, n_0: T(n) \leq c \cdot \log_{5} n \forall n \geq n_0$
 
-$change-of-base formula for \log_{5} n = \log_{2} n / \log_{2} 5$
+change-of-base formula for $\log_{5} n = \log_{2} n / \log_{2} 5$
 
 $c = \log_{2} 5$
 
