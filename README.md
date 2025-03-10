@@ -13,17 +13,42 @@ might help with the notation for mathematical expressions.
 $T(n) \in O(f(n)) \iff \exists c, n_0: T(n) \leq c \cdot f(n) \forall n \geq n_0$
 
 
-$T(n) \in O(\log_{5} n)$
+$T(n) \in O(\log_{2} n)$ then 
 
-$ \exists n\ge n_0:   \log_{5} n  \in  O(\log_{2} n)$
+$\exists c, n_0: T(n) \leq c \cdot \log_{2} n \forall n \geq n_0$
 
-$\exists c>0, \exists n_0, \forall n\ge n_0: \log_{5} n <= c \log_{2} n$ true if c > 0
+$change-of-base formula for \log_{2} n = \log_{5} n / \log_{5} 2$
 
-$\log_{2} n = O(\log_{5} n)$
+$c = \log_{5} 2$
 
-$\exists c>0, \exists n_0, \forall n\ge n_0: \log_{2} n <= c \log_{5} n$ true if c > 3
+$\exists c, n_0: T(n) \leq \log_{5} 2 \cdot \log_{5} n / \log_{5} 2 \forall n \geq n_0$
 
-so $O(\log_{2} n)$ == $O(\log_{5} n)$ is true
+
+$\exists c, n_0: T(n) \leq \log_{5} n \forall n \geq n_0$ so
+
+$T(n) \in O(\log_{5} n)$  is true 
+
+
+$T(n) \in O(\log_{5} n)$ then 
+
+$\exists c, n_0: T(n) \leq c \cdot \log_{5} n \forall n \geq n_0$
+
+$change-of-base formula for \log_{5} n = \log_{2} n / \log_{2} 5$
+
+$c = \log_{2} 5$
+
+$\exists c, n_0: T(n) \leq \log_{2} 5 \cdot \log_{2} n / \log_{2} 5 \forall n \geq n_0$
+
+
+$\exists c, n_0: T(n) \leq \log_{2} n \forall n \geq n_0$ so
+
+$T(n) \in O(\log_{2} n)$  is true 
+
+so $O(\log_{2} n)$ is the same as $O(\log_{5} n)$
+
+
+
+
 
 For this assignment, I was able to do it entirely on my own with help on the distinct parts of the proof I needed to tackle from the TA.
 
