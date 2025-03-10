@@ -50,7 +50,7 @@ $T(n) \in O(\log_{2} n)$  is true
 
 
 
-For this assignment, I was able to do it entirely on my own with help on the distinct parts of the proof I needed to tackle from the TA.
+For this assignment, I was able to do it entirely on my own with help on the distinct parts of the proof I needed to tackle from the TA and change-of-base formula from https://study.com/academy/lesson/change-of-base-formula-logarithms-proof-quiz.html#:~:text=An%20important%20algebraic%20property%20of,1%20is%20the%20chosen%20base.
 
 "I certify that I have listed all sources used to complete this exercise, including the use of any Large Language Models. All of the work is my own, except where stated otherwise. I am aware that plagiarism carries severe penalties and that if plagiarism is suspected, charges may be filed against me without prior notice."
 
