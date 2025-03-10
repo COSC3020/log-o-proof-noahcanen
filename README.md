@@ -44,7 +44,7 @@ $\exists c, n_0: T(n) \leq \log_{2} n \forall n \geq n_0$ so
 
 $T(n) \in O(\log_{2} n)$  is true 
 
-so $O(\log_{2} n)$ is the same as $O(\log_{5} n)$
+ $T(n) \in O(\log_{2} n) \iff T(n) \in O(\log_{5} n)$ is true 
 
 
 
