@@ -19,12 +19,7 @@ $\exists c, n_0: T(n) \leq c \cdot \log_{2} n \forall n \geq n_0$
 
 change-of-base formula for $\log_{2} n = \log_{5} n / \log_{5} 2$
 
-$c = \log_{5} 2$
-
-$\exists c, n_0: T(n) \leq \log_{5} 2 \cdot \log_{5} n / \log_{5} 2 \forall n \geq n_0$
-
-
-$\exists c, n_0: T(n) \leq \log_{5} n \forall n \geq n_0$ so
+$\exists c, n_0: T(n) \leq c \cdot \log_{5} n / \log_{5} 2 \forall n \geq n_0$ so
 
 $T(n) \in O(\log_{5} n)$  is true 
 
@@ -35,12 +30,7 @@ $\exists c, n_0: T(n) \leq c \cdot \log_{5} n \forall n \geq n_0$
 
 change-of-base formula for $\log_{5} n = \log_{2} n / \log_{2} 5$
 
-$c = \log_{2} 5$
-
-$\exists c, n_0: T(n) \leq \log_{2} 5 \cdot \log_{2} n / \log_{2} 5 \forall n \geq n_0$
-
-
-$\exists c, n_0: T(n) \leq \log_{2} n \forall n \geq n_0$ so
+$\exists c, n_0: T(n) \leq c \cdot \log_{2} n / \log_{2} 5 \forall n \geq n_0$ so
 
 $T(n) \in O(\log_{2} n)$  is true 
 
